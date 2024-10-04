@@ -1,0 +1,28 @@
+# Django REST API for Product and Category Management
+
+This project implements a Django REST API to manage products and categories, with support for image uploads, JWT authentication, pagination, and throttling. The project also includes database optimization, deployment on a cloud platform, and CI/CD setup for automatic deployment.
+
+## Features
+
+1. **CRUD Operations on Products and Categories**  
+   The API provides endpoints to create, retrieve, update, and delete products and categories.
+
+2. **Image Upload**  
+   Image upload functionality is implemented using Django's `ImageField` for product images.
+
+3. **JWT Authentication**  
+   Authentication is implemented using `djangorestframework-simplejwt` to secure the API.
+
+4. **Pagination and Throttling**  
+   The API includes pagination for product listings and throttling to limit request rates.
+
+5. **Database Optimization**  
+   Database indexing has been applied to frequently queried fields to improve query performance. Optimized queries using Django ORM are implemented.
+
+6. **Deployment on Render**  
+   The project is deployed on a cloud platform with PostgreSQL as the database. It includes secure HTTPS connections, and environment configuration follows security best practices.
+
+7. **CI/CD Setup**  
+   CI/CD pipelines are configured for automatic deployment whenever new code is pushed to the repository.
+
+---
