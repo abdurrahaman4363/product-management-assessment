@@ -28,6 +28,7 @@ SECRET_KEY = "django-insecure-(5le!1havglj8hqf-6lyxe7!of98yhdgwx@p(cqp*g*m$i&3xa
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["https://product-management-assessment.onrender.com",'https://*.127.0.0.1']
 
 
 
