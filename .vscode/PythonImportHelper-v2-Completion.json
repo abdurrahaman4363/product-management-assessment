@@ -676,7 +676,7 @@
         "kind": 6,
         "importPath": "category.views",
         "description": "category.views",
-        "peekOfCode": "class CategoryViewSet(viewsets.ModelViewSet):\n    permission_classes = [IsAuthenticatedOrReadOnly]\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer",
+        "peekOfCode": "class CategoryViewSet(viewsets.ModelViewSet):\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer",
         "detail": "category.views",
         "documentation": {}
     },
@@ -874,7 +874,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "WSGI_APPLICATION = \"product_management.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = \"product_management.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\n# DATABASES = {\n#     \"default\": {\n#         \"ENGINE\": \"django.db.backends.sqlite3\",\n#         \"NAME\": BASE_DIR / \"db.sqlite3\",\n#     }\n# }\nDATABASES = {",
         "detail": "product_management.settings",
         "documentation": {}
     },
@@ -883,7 +883,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n   'default': {\n       'ENGINE': 'django.db.backends.postgresql',\n       'NAME': 'product-management-assessment',\n       'USER': 'postgres',\n       'PASSWORD': '63763080',\n       'HOST': 'localhost',\n       'PORT': '5432',\n   }\n}",
         "detail": "product_management.settings",
         "documentation": {}
     },
