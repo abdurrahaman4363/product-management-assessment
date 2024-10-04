@@ -376,14 +376,6 @@
         "documentation": {}
     },
     {
-        "label": "IsAuthenticated",
-        "importPath": "rest_framework.permissions",
-        "description": "rest_framework.permissions",
-        "isExtraImport": true,
-        "detail": "rest_framework.permissions",
-        "documentation": {}
-    },
-    {
         "label": "IsAuthenticatedOrReadOnly",
         "importPath": "rest_framework.permissions",
         "description": "rest_framework.permissions",
