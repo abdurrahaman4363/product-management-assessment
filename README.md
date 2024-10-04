@@ -49,13 +49,13 @@ Here is a brief overview of the main API endpoints:
 
 ### Authentication
 - [`POST /register/`](https://product-management-assessment.onrender.com/register)
-- **Description:** 
+ - **Description:** 
   This endpoint allows you to create a new user by providing `username`, `email`, and `password`.
 - [`POST /login/`](https://product-management-assessment.onrender.com/login)
   - **Description:** 
   This endpoint allows users to log in by providing username and password. It will return an access and refresh token for authentication.
 - [`POST /logout/`](https://product-management-assessment.onrender.com/logout)
-- **Description:** 
+ - **Description:** 
   This endpoint logs out the user by blacklisting the refresh token. You need to provide the refresh token in the request body and the access token in the Authorization header.
 
 
