@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +28,7 @@ SECRET_KEY = "django-insecure-(5le!1havglj8hqf-6lyxe7!of98yhdgwx@p(cqp*g*m$i&3xa
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-ALLOWED_HOSTS = ['https://product-management-assessment.onrender.com', 'http://127.0.0.1:8000', '0.0.0.0']
+
 
 
 # Application definition
@@ -120,15 +121,24 @@ WSGI_APPLICATION = "product_management.wsgi.application"
 #     }
 # }
 
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'product-management-assessment',
+#        'USER': 'postgres',
+#        'PASSWORD': '63763080',
+#        'HOST': 'localhost',
+#        'PORT': '5432',
+#    }
+# }
+
+
 DATABASES = {
-   'default': {
-       'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'product-management-assessment',
-       'USER': 'postgres',
-       'PASSWORD': '63763080',
-       'HOST': 'localhost',
-       'PORT': '5432',
-   }
+    'default': dj_database_url.config(
+        # Replace this value with your local database's connection string.
+        default='postgresql://product_management_assessment_user:ZYW9lYLpSn3OQAYhtNztgQ96eEq7CBCc@dpg-crvqb0i3esus7395cdg0-a.oregon-postgres.render.com/product_management_assessment',
+
+    )
 }
 
 # Password validation

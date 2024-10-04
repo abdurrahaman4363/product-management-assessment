@@ -514,6 +514,15 @@
         "documentation": {}
     },
     {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -784,7 +793,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-(5le!1havglj8hqf-6lyxe7!of98yhdgwx@p(cqp*g*m$i&3xa\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nALLOWED_HOSTS = ['https://product-management-assessment.onrender.com', 'http://127.0.0.1:8000', '0.0.0.0']\n# Application definition",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-(5le!1havglj8hqf-6lyxe7!of98yhdgwx@p(cqp*g*m$i&3xa\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [",
         "detail": "product_management.settings",
         "documentation": {}
     },
@@ -793,7 +802,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "SECRET_KEY = \"django-insecure-(5le!1havglj8hqf-6lyxe7!of98yhdgwx@p(cqp*g*m$i&3xa\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nALLOWED_HOSTS = ['https://product-management-assessment.onrender.com', 'http://127.0.0.1:8000', '0.0.0.0']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-(5le!1havglj8hqf-6lyxe7!of98yhdgwx@p(cqp*g*m$i&3xa\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
         "detail": "product_management.settings",
         "documentation": {}
     },
@@ -802,7 +811,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\nALLOWED_HOSTS = ['https://product-management-assessment.onrender.com', 'http://127.0.0.1:8000', '0.0.0.0']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
         "detail": "product_management.settings",
         "documentation": {}
     },
@@ -811,16 +820,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nALLOWED_HOSTS = ['https://product-management-assessment.onrender.com', 'http://127.0.0.1:8000', '0.0.0.0']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
-        "detail": "product_management.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "product_management.settings",
-        "description": "product_management.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['https://product-management-assessment.onrender.com', 'http://127.0.0.1:8000', '0.0.0.0']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"category\",",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"category\",",
         "detail": "product_management.settings",
         "documentation": {}
     },
@@ -883,7 +883,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "WSGI_APPLICATION = \"product_management.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\n# DATABASES = {\n#     \"default\": {\n#         \"ENGINE\": \"django.db.backends.sqlite3\",\n#         \"NAME\": BASE_DIR / \"db.sqlite3\",\n#     }\n# }\nDATABASES = {",
+        "peekOfCode": "WSGI_APPLICATION = \"product_management.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\n# DATABASES = {\n#     \"default\": {\n#         \"ENGINE\": \"django.db.backends.sqlite3\",\n#         \"NAME\": BASE_DIR / \"db.sqlite3\",\n#     }\n# }\n# DATABASES = {",
         "detail": "product_management.settings",
         "documentation": {}
     },
@@ -892,7 +892,7 @@
         "kind": 5,
         "importPath": "product_management.settings",
         "description": "product_management.settings",
-        "peekOfCode": "DATABASES = {\n   'default': {\n       'ENGINE': 'django.db.backends.postgresql',\n       'NAME': 'product-management-assessment',\n       'USER': 'postgres',\n       'PASSWORD': '63763080',\n       'HOST': 'localhost',\n       'PORT': '5432',\n   }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(\n        # Replace this value with your local database's connection string.\n        default='postgresql://product_management_assessment_user:ZYW9lYLpSn3OQAYhtNztgQ96eEq7CBCc@dpg-crvqb0i3esus7395cdg0-a.oregon-postgres.render.com/product_management_assessment',\n    )\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
         "detail": "product_management.settings",
         "documentation": {}
     },
