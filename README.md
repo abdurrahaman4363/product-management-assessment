@@ -40,18 +40,18 @@ This project implements a Django REST API to manage products and categories, wit
 Here is a brief overview of the main API endpoints:
 
 ### Categories
-- [`GET /api/categories/`: List all categories.](https://product-management-assessment.onrender.com/category)
+- [`GET /categories/`: List all categories.](https://product-management-assessment.onrender.com/category)
 
 
 ### Products
-- [`GET /api/products/`: List all products (includes pagination).](https://product-management-assessment.onrender.com/products)
-- [`GET /api/products/`: List all products (includes pagination).](https://product-management-assessment.onrender.com/products/?page=2)
+- [`GET /products/`: List all products (includes pagination).](https://product-management-assessment.onrender.com/products)
+- [`GET /products/`: List all products (includes pagination).](https://product-management-assessment.onrender.com/products/?page=2)
 
 
 ### Authentication
-- [`POST /api/token/`: Get JWT tokens for authentication.](https://product-management-assessment.onrender.com/register)
-- [`POST /api/token/refresh/`: Refresh access tokens.](https://product-management-assessment.onrender.com/login)
-- [`POST /api/logout/`: Invalidate the JWT token and log out.](https://product-management-assessment.onrender.com/logout)
+- [`POST /register/`](https://product-management-assessment.onrender.com/register)
+- [`POST /login/`](https://product-management-assessment.onrender.com/login)
+- [`POST /logout/`](https://product-management-assessment.onrender.com/logout)
 
 ---
 
