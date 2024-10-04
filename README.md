@@ -40,7 +40,7 @@ This project implements a Django REST API to manage products and categories, wit
 Here is a brief overview of the main API endpoints:
 
 ### Categories
-- [`GET /categories/`](https://product-management-assessment.onrender.com/category)
+- [`GET /category/`](https://product-management-assessment.onrender.com/category)
 
 
 ### Products
