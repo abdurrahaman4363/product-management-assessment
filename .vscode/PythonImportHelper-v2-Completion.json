@@ -685,7 +685,7 @@
         "kind": 6,
         "importPath": "category.views",
         "description": "category.views",
-        "peekOfCode": "class CategoryViewSet(viewsets.ModelViewSet):\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer",
+        "peekOfCode": "class CategoryViewSet(viewsets.ModelViewSet):\n    permission_classes=[IsAuthenticatedOrReadOnly]\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer",
         "detail": "category.views",
         "documentation": {}
     },
@@ -766,7 +766,7 @@
         "kind": 6,
         "importPath": "products.views",
         "description": "products.views",
-        "peekOfCode": "class ProductPagination(PageNumberPagination):\n    page_size = 1\n    page_size_query_param = page_size\n    max_page_size = 100\nclass ProductViewSet(viewsets.ModelViewSet):\n    permission_classes=[IsAuthenticatedOrReadOnly]\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    pagination_class = ProductPagination\n    throttle_classes = [UserRateThrottle, AnonRateThrottle]",
+        "peekOfCode": "class ProductPagination(PageNumberPagination):\n    page_size = 1\n    page_size_query_param = page_size\n    max_page_size = 100\nclass ProductViewSet(viewsets.ModelViewSet):\n    # permission_classes=[IsAuthenticatedOrReadOnly]\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    pagination_class = ProductPagination\n    throttle_classes = [UserRateThrottle, AnonRateThrottle]",
         "detail": "products.views",
         "documentation": {}
     },
@@ -775,7 +775,7 @@
         "kind": 6,
         "importPath": "products.views",
         "description": "products.views",
-        "peekOfCode": "class ProductViewSet(viewsets.ModelViewSet):\n    permission_classes=[IsAuthenticatedOrReadOnly]\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    pagination_class = ProductPagination\n    throttle_classes = [UserRateThrottle, AnonRateThrottle]",
+        "peekOfCode": "class ProductViewSet(viewsets.ModelViewSet):\n    # permission_classes=[IsAuthenticatedOrReadOnly]\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    pagination_class = ProductPagination\n    throttle_classes = [UserRateThrottle, AnonRateThrottle]",
         "detail": "products.views",
         "documentation": {}
     },
